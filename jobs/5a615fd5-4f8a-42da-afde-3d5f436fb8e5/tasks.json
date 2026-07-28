@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1000363184550449152,
+      "job_id": "5a615fd5-4f8a-42da-afde-3d5f436fb8e5",
+      "query": "REPLICATE [JSONData]",
+      "is_active": true
+    },
+    {
+      "id": 1000363184550449153,
+      "job_id": "5a615fd5-4f8a-42da-afde-3d5f436fb8e5",
+      "query": "REPLICATE [testtable]",
+      "is_active": true
+    }
+  ]
+}

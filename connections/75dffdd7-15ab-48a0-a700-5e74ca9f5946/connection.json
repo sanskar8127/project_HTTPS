@@ -1,0 +1,24 @@
+{
+  "id": "75dffdd7-15ab-48a0-a700-5e74ca9f5946",
+  "display_name": "MySQL1",
+  "name": "mysql1",
+  "connector": {
+    "name": "CData MySQL",
+    "version": "25.0.9539.0"
+  },
+  "properties": {
+    "Server": "localhost",
+    "AuthScheme": "Password",
+    "Password": "SECURE:SXWkXzGAU/ALMT24o+hE7U6Ai6ttEftUgi/2zXZ8pJJjj8xsPGkGEA+dvEoREqKikBkKNW38U+davA==",
+    "Database": "newschema",
+    "Port": "3306",
+    "User": "root"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

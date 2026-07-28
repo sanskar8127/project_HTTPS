@@ -1,0 +1,39 @@
+{
+  "steps": [
+    {
+      "id": "da3e1c86-2d5f-499b-bda7-93a6e0ed8496",
+      "pipeline_id": "5d9ccdc4-b0d9-4ac7-b51f-d67939a4860f",
+      "step_type": 1,
+      "entity_id": "80993f41-b5ef-4092-903a-078d96b94b56",
+      "previous_steps": [],
+      "next_steps": [
+        "0c0cd560-b47a-47ce-be03-06a2312b344a"
+      ],
+      "conditions": {}
+    },
+    {
+      "id": "0c0cd560-b47a-47ce-be03-06a2312b344a",
+      "pipeline_id": "5d9ccdc4-b0d9-4ac7-b51f-d67939a4860f",
+      "step_type": 1,
+      "entity_id": "64e216e7-49b6-464c-9767-4441839ce00a",
+      "previous_steps": [
+        "da3e1c86-2d5f-499b-bda7-93a6e0ed8496"
+      ],
+      "next_steps": [
+        "17951567-2a9e-4758-ad6b-6e89fdc8e1a7"
+      ],
+      "conditions": {}
+    },
+    {
+      "id": "17951567-2a9e-4758-ad6b-6e89fdc8e1a7",
+      "pipeline_id": "5d9ccdc4-b0d9-4ac7-b51f-d67939a4860f",
+      "step_type": 2,
+      "entity_id": "ab42f0d2-d1b7-4af8-98bf-2f16a54fb6d1",
+      "previous_steps": [
+        "0c0cd560-b47a-47ce-be03-06a2312b344a"
+      ],
+      "next_steps": [],
+      "conditions": {}
+    }
+  ]
+}

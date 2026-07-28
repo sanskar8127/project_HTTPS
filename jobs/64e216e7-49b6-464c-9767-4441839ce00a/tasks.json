@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000311421193555968,
+      "job_id": "64e216e7-49b6-464c-9767-4441839ce00a",
+      "query": "REPLICATE [sync_10495.csv]",
+      "is_active": true
+    }
+  ]
+}

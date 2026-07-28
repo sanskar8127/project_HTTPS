@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000335254919188480,
+      "job_id": "2af7e19c-e622-48ce-97dd-0191c1a4c654",
+      "query": "REPLICATE [S3_Kafka_loadfolderjob] WITH OnModified = 'UPSERT' SELECT * FROM [A*.csv,B*.csv]",
+      "is_active": true
+    }
+  ]
+}

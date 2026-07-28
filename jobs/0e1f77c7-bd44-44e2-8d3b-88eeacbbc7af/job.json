@@ -1,0 +1,52 @@
+{
+  "id": "0e1f77c7-bd44-44e2-8d3b-88eeacbbc7af",
+  "name": "MySQL_Kafka_newJob",
+  "pipeline_id": null,
+  "type": 1,
+  "source_connector": "mysql",
+  "destination_connector": "kafka",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "sanskarg@cdata.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 5,
+    "destination_schema": "",
+    "schema_strategy": "",
+    "kafka_default_topic": null,
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_mode": null,
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": null,
+    "continue_on_error": true,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": null,
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "kafka_topic_routing_mode": "TopicPerSourceTable",
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

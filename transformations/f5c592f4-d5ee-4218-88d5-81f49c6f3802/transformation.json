@@ -1,0 +1,22 @@
+{
+  "id": "f5c592f4-d5ee-4218-88d5-81f49c6f3802",
+  "name": "rffrfrfrr",
+  "pipeline_id": null,
+  "type": 4,
+  "destination_connector": "mysql",
+  "trigger": {
+    "type": "None"
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}

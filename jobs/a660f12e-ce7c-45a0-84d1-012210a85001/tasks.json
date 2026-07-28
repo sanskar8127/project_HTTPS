@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000289765871980545,
+      "job_id": "a660f12e-ce7c-45a0-84d1-012210a85001",
+      "query": "REPLICATE [Terms] SELECT * FROM [LoadFolderJob.csv]",
+      "is_active": true
+    }
+  ]
+}

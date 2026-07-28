@@ -1,0 +1,23 @@
+{
+  "id": "f263d5e6-7f7f-49ec-9eae-4f4c50f8dfe3",
+  "name": "trans_SQL",
+  "pipeline_id": null,
+  "type": 4,
+  "destination_connector": "sqlserver_dest",
+  "trigger": {
+    "type": "Scheduled",
+    "cron": "*/10 * * * ?"
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 5,
+    "command_timeout": 300
+  },
+  "labels": []
+}

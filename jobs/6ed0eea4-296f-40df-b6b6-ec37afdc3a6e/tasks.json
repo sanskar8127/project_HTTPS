@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1002178630106877953,
+      "job_id": "6ed0eea4-296f-40df-b6b6-ec37afdc3a6e",
+      "query": "REPLICATE [Bills] SELECT * FROM [db2].[aisle]",
+      "is_active": true
+    },
+    {
+      "id": 1002179633606692865,
+      "job_id": "6ed0eea4-296f-40df-b6b6-ec37afdc3a6e",
+      "query": "REPLICATE [Bills] SELECT * FROM [syncclusternew].[sync_filters]",
+      "is_active": true
+    },
+    {
+      "id": 1002179873575407617,
+      "job_id": "6ed0eea4-296f-40df-b6b6-ec37afdc3a6e",
+      "query": "REPLICATE [Bills] SELECT * FROM [db2].[newcheck_table]",
+      "is_active": true
+    },
+    {
+      "id": 1002179873575407619,
+      "job_id": "6ed0eea4-296f-40df-b6b6-ec37afdc3a6e",
+      "query": "REPLICATE [Bills] SELECT * FROM [db2].[newcheck_table2]",
+      "is_active": true
+    }
+  ]
+}

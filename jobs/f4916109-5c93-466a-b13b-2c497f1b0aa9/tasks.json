@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1002497295624835073,
+      "job_id": "f4916109-5c93-466a-b13b-2c497f1b0aa9",
+      "query": "REPLICATE [DATETIMEFROMPARTS_Test] ([newcreated_col] VARCHAR(20)) SELECT [Id], [DateTimeCol], DATETIMEFROMPARTS(YEAR([DateTimeCol]), MONTH([DateTimeCol]), DAY([DateTimeCol]), HOUR([DateTimeCol]), MINUTE([DateTimeCol]), SECOND([DateTimeCol]), 0) AS [newcreated_col] FROM [dbo].[DATETIMEFROMPARTS_Test]",
+      "is_active": true
+    },
+    {
+      "id": 1002498605262704641,
+      "job_id": "f4916109-5c93-466a-b13b-2c497f1b0aa9",
+      "query": "REPLICATE [newschema].[DATETIMEFROMPARTS_Test3] \nSELECT\n  *,\n    DATETIMEFROMPARTS(YEAR([DateTimeCol]), MONTH([DateTimeCol]), DAY([DateTimeCol]), \n    HOUR([DateTimeCol]), MINUTE([DateTimeCol]), SECOND([DateTimeCol]),0) AS [DerivedDateTime]\nFROM\n    [dbo].[DATETIMEFROMPARTS_Test2]",
+      "is_active": true
+    }
+  ]
+}

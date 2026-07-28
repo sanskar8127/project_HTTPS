@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "id": 1002100819211980800,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_bq_merge_test] SELECT * FROM [newschema].[bq_merge_test]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175104,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_estimates] SELECT * FROM [newschema].[estimates]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175105,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_exchangerates] SELECT * FROM [newschema].[exchangerates]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175106,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_newcheck_api] SELECT * FROM [newschema].[newcheck_api]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175107,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_newtimestamp_check] SELECT * FROM [newschema].[newtimestamp_check]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175108,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_products] SELECT * FROM [newschema].[products]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175109,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_sync13178_cast] SELECT * FROM [newschema].[sync13178_cast]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175110,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_sync13178_datetimeformat] SELECT * FROM [newschema].[sync13178_datetimeformat]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819216175111,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_sync13178_extractparts] SELECT * FROM [newschema].[sync13178_extractparts]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819220369408,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_sync13178_format] SELECT * FROM [newschema].[sync13178_format]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819220369409,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_sync13718_concat2] SELECT * FROM [newschema].[sync13718_concat2]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819220369410,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_sync_13178] SELECT * FROM [newschema].[sync_13178]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819220369411,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_test1] SELECT * FROM [newschema].[test1]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819220369412,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_test2] SELECT * FROM [newschema].[test2]",
+      "is_active": true
+    },
+    {
+      "id": 1002100819220369413,
+      "job_id": "948066dc-62ad-4814-855f-dad9b9284266",
+      "query": "REPLICATE [newschema_testtable] SELECT * FROM [newschema].[testtable]",
+      "is_active": true
+    }
+  ]
+}

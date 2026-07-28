@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 998158145786351617,
+      "job_id": "562fdea0-a768-4095-a322-dbafca5d62b5",
+      "query": "REPLICATE [BookCopy.csv]",
+      "is_active": true
+    }
+  ]
+}

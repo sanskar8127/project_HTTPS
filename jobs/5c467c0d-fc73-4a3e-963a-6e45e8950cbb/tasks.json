@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 998180432585560065,
+      "job_id": "5c467c0d-fc73-4a3e-963a-6e45e8950cbb",
+      "query": "REPLICATE [dbo] WITH enableparallelreadpartitioning = 'false', IncrementalCheckColumns = 'id' SELECT * FROM [dbo].[newtable_cdccheck1]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1001093149688467457,
+      "job_id": "0943c2f7-0817-4f24-ae11-906946b113c8",
+      "query": "REPLICATE [db2_newtable_hm_cdc] SELECT * FROM [db2].[newtable_hm_cdc]",
+      "is_active": true
+    }
+  ]
+}

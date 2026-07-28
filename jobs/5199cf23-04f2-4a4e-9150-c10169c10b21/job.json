@@ -1,0 +1,52 @@
+{
+  "id": "5199cf23-04f2-4a4e-9150-c10169c10b21",
+  "name": "newloadfolderjob1",
+  "pipeline_id": "d1f39125-ece5-4f98-b449-e3bb0f4168fe",
+  "type": 3,
+  "source_connector": "csvconn",
+  "destination_connector": "sqlserver_dest",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "createnew",
+    "schema_strategy": "",
+    "kafka_default_topic": null,
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_mode": null,
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": null,
+    "continue_on_error": true,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": null,
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "kafka_topic_routing_mode": null,
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

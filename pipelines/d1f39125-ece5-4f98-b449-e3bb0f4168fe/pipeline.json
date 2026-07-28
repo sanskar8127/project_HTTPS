@@ -1,0 +1,17 @@
+{
+  "id": "d1f39125-ece5-4f98-b449-e3bb0f4168fe",
+  "name": "pipeline_SQLServer",
+  "destination": "8950424c-13c2-47cc-8ac4-c7612ca02c6f",
+  "schedule": {
+    "enabled": false,
+    "cron": "*/10 * * * ?"
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": false,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}

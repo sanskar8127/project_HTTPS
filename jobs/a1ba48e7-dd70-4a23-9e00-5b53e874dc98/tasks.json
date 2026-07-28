@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1002165006407700480,
+      "job_id": "a1ba48e7-dd70-4a23-9e00-5b53e874dc98",
+      "query": "REPLICATE [Employees] SELECT * FROM [dbo].[alex]",
+      "is_active": true
+    },
+    {
+      "id": 1002170580025348097,
+      "job_id": "a1ba48e7-dd70-4a23-9e00-5b53e874dc98",
+      "query": "REPLICATE [Bills] WITH enableparallelreadpartitioning = 'false' SELECT * FROM [dbo].[account]",
+      "is_active": true
+    }
+  ]
+}

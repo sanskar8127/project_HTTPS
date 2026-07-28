@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1001020841250656257,
+      "job_id": "21b3dcb9-ea28-483d-bda6-28a3d6cda87c",
+      "query": "REPLICATE [dbo_SQL_kafka_test] SELECT * FROM [dbo].[SQL_kafka_test]",
+      "is_active": true
+    }
+  ]
+}

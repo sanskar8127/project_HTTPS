@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002154728894894081,
+      "job_id": "1fe5d4a0-22ad-4941-a783-7fcc445669f1",
+      "query": "REPLICATE [extractparts] ([year] VARCHAR(10), [month] VARCHAR(20), [date] VARCHAR(10), [hour] VARCHAR(10), [minute] VARCHAR(20), [second] VARCHAR(20)) SELECT [Id], [DateTimeCol], YEAR([DateTimeCol]) AS [year], MONTH([DateTimeCol]) AS [month], DAY([DateTimeCol]) AS [date], HOUR([DateTimeCol]) AS [hour], MINUTE([DateTimeCol]) AS [minute], SECOND([DateTimeCol]) AS [second] FROM [dbo].[extractparts]",
+      "is_active": true
+    }
+  ]
+}

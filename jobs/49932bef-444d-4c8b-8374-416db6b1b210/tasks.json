@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 998222007562801153,
+      "job_id": "49932bef-444d-4c8b-8374-416db6b1b210",
+      "query": "REPLICATE [newschema] WITH enableparallelreadpartitioning = 'false', IncrementalCheckColumns = 'created_at' SELECT * FROM [newschema].[newtimestamp_check]",
+      "is_active": true
+    }
+  ]
+}

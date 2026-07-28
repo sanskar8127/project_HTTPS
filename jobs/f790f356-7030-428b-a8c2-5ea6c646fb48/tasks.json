@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1000291902395912193,
+      "job_id": "f790f356-7030-428b-a8c2-5ea6c646fb48",
+      "query": "REPLICATE [sync_10495.csv]",
+      "is_active": true
+    },
+    {
+      "id": 1000302772823920641,
+      "job_id": "f790f356-7030-428b-a8c2-5ea6c646fb48",
+      "query": "REPLICATE [sync_10495.csv] SELECT * FROM [country.csv]",
+      "is_active": true
+    }
+  ]
+}

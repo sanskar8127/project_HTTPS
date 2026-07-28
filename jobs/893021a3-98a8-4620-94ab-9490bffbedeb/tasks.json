@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000362227737432065,
+      "job_id": "893021a3-98a8-4620-94ab-9490bffbedeb",
+      "query": "REPLICATE [annotations]",
+      "is_active": true
+    }
+  ]
+}

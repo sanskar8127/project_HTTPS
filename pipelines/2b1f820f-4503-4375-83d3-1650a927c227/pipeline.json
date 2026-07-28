@@ -1,0 +1,17 @@
+{
+  "id": "2b1f820f-4503-4375-83d3-1650a927c227",
+  "name": "Kafka_pipeline",
+  "destination": "538a11b0-424e-40a6-81fd-cbcbfe820870",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": false,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}

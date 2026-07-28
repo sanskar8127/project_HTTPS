@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1002171263659151361,
+      "job_id": "c66c3abb-d352-44ff-bada-aeedac45ab99",
+      "query": "REPLICATE [new1] SELECT * FROM [db2].[asset]",
+      "is_active": true
+    },
+    {
+      "id": 1002171484371816449,
+      "job_id": "c66c3abb-d352-44ff-bada-aeedac45ab99",
+      "query": "REPLICATE [new1] SELECT * FROM [db2].[newtest_check]",
+      "is_active": true
+    },
+    {
+      "id": 1002171671026733057,
+      "job_id": "c66c3abb-d352-44ff-bada-aeedac45ab99",
+      "query": "REPLICATE [new1] SELECT * FROM [newschema].[test2]",
+      "is_active": true
+    }
+  ]
+}

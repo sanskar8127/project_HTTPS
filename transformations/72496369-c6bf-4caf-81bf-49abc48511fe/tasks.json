@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000308777578270720,
+      "job_id": "72496369-c6bf-4caf-81bf-49abc48511fe",
+      "query": "insert into newtable_cdccheck1 values(7,'erggtr',26),(8,'ereggg',36);",
+      "is_active": true
+    }
+  ]
+}

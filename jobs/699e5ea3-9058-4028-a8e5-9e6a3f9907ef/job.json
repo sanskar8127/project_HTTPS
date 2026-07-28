@@ -1,0 +1,52 @@
+{
+  "id": "699e5ea3-9058-4028-a8e5-9e6a3f9907ef",
+  "name": "newHm_job",
+  "pipeline_id": null,
+  "type": 11,
+  "source_connector": "mysql1",
+  "destination_connector": "kafka",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "sanskarg@cdata.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "",
+    "schema_strategy": "",
+    "kafka_default_topic": "newschema_employees5",
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_mode": "Incremental",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "kafka_topic_routing_mode": "SingleTopic",
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

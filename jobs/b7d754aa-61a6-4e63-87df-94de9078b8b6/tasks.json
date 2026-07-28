@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002500314991038465,
+      "job_id": "b7d754aa-61a6-4e63-87df-94de9078b8b6",
+      "query": "REPLICATE [newschema].[DATETIMEFROMPARTS_Test2] WITH _id = 'YL+KD4cZqn+dwMssJBdhCw=='\nSELECT\n    *,\n    DATETIMEFROMPARTS(YEAR([DateTimeCol]), MONTH([DateTimeCol]), DAY([DateTimeCol]), \n    HOUR([DateTimeCol]), MINUTE([DateTimeCol]), SECOND([DateTimeCol])) AS [DerivedDateTime]\nFROM\n    [dbo].[DATETIMEFROMPARTS_Test2]",
+      "is_active": true
+    }
+  ]
+}

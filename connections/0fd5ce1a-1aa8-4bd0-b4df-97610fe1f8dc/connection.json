@@ -1,0 +1,23 @@
+{
+  "id": "0fd5ce1a-1aa8-4bd0-b4df-97610fe1f8dc",
+  "display_name": "S3conn",
+  "name": "s3conn",
+  "connector": {
+    "name": "Amazon S3",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AwsRootKeys",
+    "AWSAccessKey": "SECURE:kfj67sgnH9GV65hbM3YYQLbsYQJybMoFRtm19OtyhZylJnqB/3ul0nmDoxoniMEYhHuLFkKaZWOmsU8prZfOers3i50=",
+    "AWSSecretKey": "SECURE:emoveLZwm9OdZeJpkUHdg4xdN0yIdx+JZ1KSdgseMRANYiu5MShJvH+QVk7zyqNUpbuauT5ViSFK6/OT+1Mo6Gv1nXkHkyxskucBPDCsYn/8R4aym+s69Q==",
+    "ConnectionType": "Amazon S3",
+    "AWSRegion": "NORTHERNVIRGINIA"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

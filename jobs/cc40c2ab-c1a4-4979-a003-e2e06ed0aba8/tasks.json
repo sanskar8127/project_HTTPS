@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1002454953052213249,
+      "job_id": "cc40c2ab-c1a4-4979-a003-e2e06ed0aba8",
+      "query": "REPLICATE [newschema_employees1] SELECT * FROM [newschema].[employees2]",
+      "is_active": true
+    },
+    {
+      "id": 1002456880540422145,
+      "job_id": "cc40c2ab-c1a4-4979-a003-e2e06ed0aba8",
+      "query": "REPLICATE [newschema_employees1] SELECT * FROM [newschema].[employees3]",
+      "is_active": true
+    }
+  ]
+}

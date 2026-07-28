@@ -1,0 +1,17 @@
+{
+  "id": "d1de60e6-19eb-4203-adc6-67dbcc6c9e04",
+  "name": "Pipeline_S3",
+  "destination": "0fd5ce1a-1aa8-4bd0-b4df-97610fe1f8dc",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": false,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}

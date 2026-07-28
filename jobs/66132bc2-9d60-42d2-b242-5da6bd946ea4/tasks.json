@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1002180979168776193,
+      "job_id": "66132bc2-9d60-42d2-b242-5da6bd946ea4",
+      "query": "REPLICATE [dbo_MYTEST] SELECT * FROM [dbo].[MYTEST]",
+      "is_active": true
+    },
+    {
+      "id": 1002181513820901379,
+      "job_id": "66132bc2-9d60-42d2-b242-5da6bd946ea4",
+      "query": "REPLICATE [newjob2] WITH enableparallelreadpartitioning = 'false' SELECT * FROM [dbo].[job_test1]",
+      "is_active": true
+    },
+    {
+      "id": 1002215449607409665,
+      "job_id": "66132bc2-9d60-42d2-b242-5da6bd946ea4",
+      "query": "REPLICATE [dbo__events] SELECT * FROM [dbo].[_events]",
+      "is_active": true
+    },
+    {
+      "id": 1002215449607409667,
+      "job_id": "66132bc2-9d60-42d2-b242-5da6bd946ea4",
+      "query": "REPLICATE [dbo_all_data] SELECT * FROM [dbo].[all_data]",
+      "is_active": true
+    },
+    {
+      "id": 1002215449611603968,
+      "job_id": "66132bc2-9d60-42d2-b242-5da6bd946ea4",
+      "query": "REPLICATE [dbo_Orders2026] SELECT * FROM [dbo].[Orders2026]",
+      "is_active": true
+    }
+  ]
+}

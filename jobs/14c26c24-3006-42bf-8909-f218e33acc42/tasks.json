@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1001097616416706561,
+      "job_id": "14c26c24-3006-42bf-8909-f218e33acc42",
+      "query": "REPLICATE [sanskar] SELECT * FROM [db2].[activityslips]",
+      "is_active": true
+    },
+    {
+      "id": 1001098274846937089,
+      "job_id": "14c26c24-3006-42bf-8909-f218e33acc42",
+      "query": "REPLICATE [sanskar] SELECT * FROM [db2].[1mrows]",
+      "is_active": true
+    },
+    {
+      "id": 1001103739450429441,
+      "job_id": "14c26c24-3006-42bf-8909-f218e33acc42",
+      "query": "REPLICATE [Bills] SELECT * FROM [db2].[4milliondata]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000335003864928257,
+      "job_id": "6212f74c-d851-42fc-a648-e9972902ddda",
+      "query": "REPLICATE [newschema] SELECT * FROM [LoadFolderJob.csv]",
+      "is_active": true
+    }
+  ]
+}

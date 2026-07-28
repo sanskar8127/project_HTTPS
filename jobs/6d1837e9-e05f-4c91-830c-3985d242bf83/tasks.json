@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002534601819820032,
+      "job_id": "6d1837e9-e05f-4c91-830c-3985d242bf83",
+      "query": "REPLICATE [Bills] SELECT * FROM [dbo].[testing2] ",
+      "is_active": true
+    }
+  ]
+}

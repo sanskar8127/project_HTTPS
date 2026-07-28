@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1001076747489382400,
+      "job_id": "cab85b32-152d-486d-8201-487c17981db1",
+      "query": "REPLICATE [newloadfolderjob1] WITH OnModified = 'APPEND' SELECT [City], [Company], [Country], [Email], [First Name], [Index], [Last Name], [Phone 1], [Phone 2], [Subscription Date], [Website] FROM [c*.csv]",
+      "is_active": true
+    }
+  ]
+}

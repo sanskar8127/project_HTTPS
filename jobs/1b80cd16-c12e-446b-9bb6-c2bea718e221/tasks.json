@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1001045886467444737,
+      "job_id": "1b80cd16-c12e-446b-9bb6-c2bea718e221",
+      "query": "REPLICATE [mysql_kafka_test] SELECT * FROM [db2].[mysql_kafka_test]",
+      "is_active": true
+    },
+    {
+      "id": 1001064654715359233,
+      "job_id": "1b80cd16-c12e-446b-9bb6-c2bea718e221",
+      "query": "REPLICATE [newtable_hm1] SELECT * FROM [db2].[newtable_hm1]",
+      "is_active": true
+    }
+  ]
+}

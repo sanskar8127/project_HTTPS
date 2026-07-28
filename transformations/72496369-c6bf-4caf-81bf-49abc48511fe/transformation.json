@@ -1,0 +1,22 @@
+{
+  "id": "72496369-c6bf-4caf-81bf-49abc48511fe",
+  "name": "trans_mysql1",
+  "pipeline_id": null,
+  "type": 4,
+  "destination_connector": "mysql",
+  "trigger": {
+    "type": "None"
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}

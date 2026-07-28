@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002138744859529217,
+      "job_id": "1a46c97d-55bb-4c63-8ac1-6bb841b3443e",
+      "query": "REPLICATE [CAST_Test] ([convert_int] INTEGER, [newcol] TIMESTAMP(10), [Col_cast] VARCHAR(20)) SELECT [Id], [Amount], [DateCol], CAST([DateCol] AS TIMESTAMP) AS [newcol], CAST([Amount] AS INTEGER) AS [convert_int] FROM [dbo].[CAST_Test]",
+      "is_active": true
+    }
+  ]
+}

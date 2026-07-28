@@ -1,0 +1,26 @@
+{
+  "steps": [
+    {
+      "id": "6b0422d2-da73-470a-98d8-a5dd33002e03",
+      "pipeline_id": "d1f39125-ece5-4f98-b449-e3bb0f4168fe",
+      "step_type": 1,
+      "entity_id": "cab85b32-152d-486d-8201-487c17981db1",
+      "previous_steps": [],
+      "next_steps": [
+        "3b3eca3d-0071-43ef-8113-8426477ebdbb"
+      ],
+      "conditions": {}
+    },
+    {
+      "id": "3b3eca3d-0071-43ef-8113-8426477ebdbb",
+      "pipeline_id": "d1f39125-ece5-4f98-b449-e3bb0f4168fe",
+      "step_type": 1,
+      "entity_id": "5199cf23-04f2-4a4e-9150-c10169c10b21",
+      "previous_steps": [
+        "6b0422d2-da73-470a-98d8-a5dd33002e03"
+      ],
+      "next_steps": [],
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000383023537065984,
+      "job_id": "a1b1486b-62e2-4442-8dd7-242c207f124e",
+      "query": "REPLICATE [crew.csv]",
+      "is_active": true
+    }
+  ]
+}

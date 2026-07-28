@@ -1,0 +1,17 @@
+{
+  "id": "5d9ccdc4-b0d9-4ac7-b51f-d67939a4860f",
+  "name": "pipeline_Postgresql",
+  "destination": "655cc53f-465a-4471-a5a6-f57bdfe9793b",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": true,
+    "notify_email_subject": "CData Sync",
+    "notify_email_to": "sanskarg@cdata.com",
+    "email_error_only": false
+  },
+  "labels": []
+}

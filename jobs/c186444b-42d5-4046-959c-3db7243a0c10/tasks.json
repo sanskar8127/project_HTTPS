@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1002178862446153729,
+      "job_id": "c186444b-42d5-4046-959c-3db7243a0c10",
+      "query": "REPLICATE [db2_newtabletest] SELECT * FROM [db2].[newtabletest]",
+      "is_active": true
+    },
+    {
+      "id": 1002179260938588161,
+      "job_id": "c186444b-42d5-4046-959c-3db7243a0c10",
+      "query": "REPLICATE [db2_testtable] SELECT * FROM [db2].[testtable]",
+      "is_active": true
+    },
+    {
+      "id": 1002179260938588163,
+      "job_id": "c186444b-42d5-4046-959c-3db7243a0c10",
+      "query": "REPLICATE [db2_testtable1] SELECT * FROM [db2].[testtable1]",
+      "is_active": true
+    }
+  ]
+}

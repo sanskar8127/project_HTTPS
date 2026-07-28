@@ -1,0 +1,22 @@
+{
+  "id": "28c20319-ca85-4c4c-9ec0-21aa4767d889",
+  "name": "asdceee",
+  "pipeline_id": null,
+  "type": 4,
+  "destination_connector": "s3conn",
+  "trigger": {
+    "type": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}

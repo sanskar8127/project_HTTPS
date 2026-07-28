@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 998193524379881473,
+      "job_id": "c744f227-a98c-4af2-b0d1-5dc0f2b259a0",
+      "query": "REPLICATE [BookCopy.csv]",
+      "is_active": true
+    },
+    {
+      "id": 998193909618315265,
+      "job_id": "c744f227-a98c-4af2-b0d1-5dc0f2b259a0",
+      "query": "REPLICATE [sync_10495.csv]",
+      "is_active": true
+    },
+    {
+      "id": 998198709797916673,
+      "job_id": "c744f227-a98c-4af2-b0d1-5dc0f2b259a0",
+      "query": "REPLICATE [country.csv]",
+      "is_active": true
+    },
+    {
+      "id": 998198709797916675,
+      "job_id": "c744f227-a98c-4af2-b0d1-5dc0f2b259a0",
+      "query": "REPLICATE [ECDC_NOPK.csv]",
+      "is_active": true
+    },
+    {
+      "id": 998198709797916677,
+      "job_id": "c744f227-a98c-4af2-b0d1-5dc0f2b259a0",
+      "query": "REPLICATE [LoadFolderJob.csv]",
+      "is_active": true
+    }
+  ]
+}

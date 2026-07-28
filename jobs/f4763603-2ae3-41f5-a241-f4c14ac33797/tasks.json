@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1001066091331588097,
+      "job_id": "f4763603-2ae3-41f5-a241-f4c14ac33797",
+      "query": "REPLICATE [db2_newtable_hm2] WITH enableparallelreadpartitioning = 'false', IncrementalCheckColumns = 'dt' SELECT * FROM [db2].[newtable_hm2]",
+      "is_active": true
+    }
+  ]
+}

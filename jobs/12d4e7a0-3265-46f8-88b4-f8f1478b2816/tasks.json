@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 998157708672765953,
+      "job_id": "12d4e7a0-3265-46f8-88b4-f8f1478b2816",
+      "query": "REPLICATE [db2-newtable_cdccheck1] SELECT * FROM [db2].[newtable_cdccheck1]",
+      "is_active": true
+    },
+    {
+      "id": 998157708672765955,
+      "job_id": "12d4e7a0-3265-46f8-88b4-f8f1478b2816",
+      "query": "REPLICATE [db2-newtable_cdccheck2] SELECT * FROM [db2].[newtable_cdccheck2]",
+      "is_active": true
+    },
+    {
+      "id": 998221503445209089,
+      "job_id": "12d4e7a0-3265-46f8-88b4-f8f1478b2816",
+      "query": "REPLICATE [db2-test_time] SELECT * FROM [db2].[test_time]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "538a11b0-424e-40a6-81fd-cbcbfe820870",
+  "display_name": "Kafka",
+  "name": "kafka",
+  "connector": {
+    "name": "CData ApacheKafka",
+    "version": "25.0.9690.0"
+  },
+  "properties": {
+    "RegistryAuthScheme": "Basic",
+    "AuthScheme": "Plain",
+    "RegistryURL": "https://psrc-4yovk.us-east-2.aws.confluent.cloud",
+    "RegistryService": "Confluent",
+    "Other": "KafkaTopicRoutingMode=SingleTopic;",
+    "UseSSL": "True",
+    "Password": "SECURE:vfoPlsy7N9EulZJhM3vOPWtbVSnPFjjjaWQYIYLUEAohyNOoiTHuIF9xGJzs+PmNQRTU7IKItZc+9ouqIb/LpRPsa+MmFOoOFth3oYT+ETNDHrrHRgqOzrtE1SxFDTo06BCevrw6WkQXCiYvc3UvAQ==",
+    "KafkaTopicRoutingMode": "SingleTopic",
+    "BootstrapServers": "pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "TypeDetectionScheme": "SchemaRegistry",
+    "RegistryPassword": "SECURE:MxGDAjle7+yEyrz7DYT+TiEmseqFgHIheeG+D0LhepsNwrvUmVqEevbyW/0TsmsCJRGmOMXKbGlCEwz2YQl4nkQ5sb6E3so0HzCgwiWL1HSqE9Wbrgb4vFggdkq85FKcWS0pguDzolHSkm9xcSocDw==",
+    "User": "4RVXMZ4FJQNYTIYD",
+    "RegistryUser": "NKR5K6VL3AW6JA7M"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

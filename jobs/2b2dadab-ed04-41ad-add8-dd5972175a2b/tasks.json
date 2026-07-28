@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002164858919194624,
+      "job_id": "2b2dadab-ed04-41ad-add8-dd5972175a2b",
+      "query": "REPLICATE [db2_authors] SELECT * FROM [db2].[authors]",
+      "is_active": true
+    }
+  ]
+}

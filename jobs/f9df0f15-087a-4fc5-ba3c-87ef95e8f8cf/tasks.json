@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 998162974835347457,
+      "job_id": "f9df0f15-087a-4fc5-ba3c-87ef95e8f8cf",
+      "query": "REPLICATE [Salesforce-Audience] SELECT * FROM [Salesforce].[Audience]",
+      "is_active": true
+    },
+    {
+      "id": 998163054980108289,
+      "job_id": "f9df0f15-087a-4fc5-ba3c-87ef95e8f8cf",
+      "query": "REPLICATE [Campaign_table] SELECT * FROM [Salesforce].[Campaign]",
+      "is_active": true
+    }
+  ]
+}

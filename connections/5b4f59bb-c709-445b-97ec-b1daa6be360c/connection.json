@@ -1,0 +1,24 @@
+{
+  "id": "5b4f59bb-c709-445b-97ec-b1daa6be360c",
+  "display_name": "Dynamics365",
+  "name": "dynamics365",
+  "connector": {
+    "name": "CData Dynamics365",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AzureAD",
+    "Edition": "Sales",
+    "OrganizationURL": "https://cdata-sandbox.crm.dynamics.com"
+  },
+  "labels": [
+    "label1",
+    "label2"
+  ],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

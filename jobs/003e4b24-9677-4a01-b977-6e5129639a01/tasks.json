@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1000369176906436608,
+      "job_id": "003e4b24-9677-4a01-b977-6e5129639a01",
+      "query": "REPLICATE [dbo].[sync13178_concat] SELECT * FROM [dbo].[sync13178_concat]",
+      "is_active": true
+    },
+    {
+      "id": 1000369176906436609,
+      "job_id": "003e4b24-9677-4a01-b977-6e5129639a01",
+      "query": "REPLICATE [dbo].[sync13178_datetimeformat] SELECT * FROM [dbo].[sync13178_datetimeformat]",
+      "is_active": true
+    }
+  ]
+}

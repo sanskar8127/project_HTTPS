@@ -1,0 +1,20 @@
+{
+  "id": "1a2e3c60-2ff8-45d5-957f-83150673b9be",
+  "display_name": "Salesforce",
+  "name": "salesforce",
+  "connector": {
+    "name": "CData Salesforce",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "OAuth",
+    "Scope": "refresh_token api"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

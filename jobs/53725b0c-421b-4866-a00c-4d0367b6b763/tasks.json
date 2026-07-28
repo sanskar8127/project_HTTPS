@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002531619569012737,
+      "job_id": "53725b0c-421b-4866-a00c-4d0367b6b763",
+      "query": "REPLICATE [ADMIN_document_store2] WITH enableparallelreadpartitioning = 'false' SELECT * FROM [ADMIN].[document_store]",
+      "is_active": true
+    }
+  ]
+}

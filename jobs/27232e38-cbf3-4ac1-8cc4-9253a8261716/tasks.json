@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002226640362803201,
+      "job_id": "27232e38-cbf3-4ac1-8cc4-9253a8261716",
+      "query": "REPLICATE [newschema_employees5] SELECT * FROM [newschema].[employees5]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 998179700406882307,
+      "job_id": "b14a2f9a-799b-4683-b0a2-cab6444aa158",
+      "query": "REPLICATE [Class]",
+      "is_active": true
+    },
+    {
+      "id": 998194848207081473,
+      "job_id": "b14a2f9a-799b-4683-b0a2-cab6444aa158",
+      "query": "REPLICATE [Invoices]",
+      "is_active": true
+    }
+  ]
+}

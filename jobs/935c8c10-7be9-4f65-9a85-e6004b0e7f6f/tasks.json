@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1001016223187734529,
+      "job_id": "935c8c10-7be9-4f65-9a85-e6004b0e7f6f",
+      "query": "REPLICATE [db2_mysql_kafka_test] SELECT * FROM [db2].[mysql_kafka_test]",
+      "is_active": true
+    },
+    {
+      "id": 1001017554065559553,
+      "job_id": "935c8c10-7be9-4f65-9a85-e6004b0e7f6f",
+      "query": "REPLICATE [db2_mysql_kafka_test2] SELECT * FROM [db2].[mysql_kafka_test2]",
+      "is_active": true
+    },
+    {
+      "id": 1001040610242727937,
+      "job_id": "935c8c10-7be9-4f65-9a85-e6004b0e7f6f",
+      "query": "REPLICATE [db2_annotations] SELECT * FROM [db2].[annotations]",
+      "is_active": true
+    },
+    {
+      "id": 1001101660442988545,
+      "job_id": "935c8c10-7be9-4f65-9a85-e6004b0e7f6f",
+      "query": "REPLICATE [db2_employee] SELECT * FROM [db2].[employee]",
+      "is_active": true
+    }
+  ]
+}

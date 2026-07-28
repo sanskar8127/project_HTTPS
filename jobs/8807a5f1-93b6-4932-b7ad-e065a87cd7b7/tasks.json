@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1001048082982506496,
+      "job_id": "8807a5f1-93b6-4932-b7ad-e065a87cd7b7",
+      "query": "REPLICATE [CSV_kafkajob1] WITH OnModified = 'UPSERT' SELECT * FROM [sa*.csv]",
+      "is_active": true
+    }
+  ]
+}

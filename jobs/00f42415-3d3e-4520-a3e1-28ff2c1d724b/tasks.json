@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002157954725711873,
+      "job_id": "00f42415-3d3e-4520-a3e1-28ff2c1d724b",
+      "query": "REPLICATE [DATETIMEFROMPARTS_Test2] ([created_col] VARCHAR(20)) SELECT [Id], [DateTimeCol], DATETIMEFROMPARTS(2026, 11, 25, 10, 24, 30, 12) AS [created_col] FROM [dbo].[DATETIMEFROMPARTS_Test2]",
+      "is_active": true
+    }
+  ]
+}

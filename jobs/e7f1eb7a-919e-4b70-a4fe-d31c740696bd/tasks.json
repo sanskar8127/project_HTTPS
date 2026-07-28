@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000308390922162176,
+      "job_id": "e7f1eb7a-919e-4b70-a4fe-d31c740696bd",
+      "query": "REPLICATE [Deposits]",
+      "is_active": true
+    }
+  ]
+}

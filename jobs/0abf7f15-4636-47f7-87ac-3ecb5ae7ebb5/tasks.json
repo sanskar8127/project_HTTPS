@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000366060970577920,
+      "job_id": "0abf7f15-4636-47f7-87ac-3ecb5ae7ebb5",
+      "query": "REPLICATE [newtable_load] WITH OnModified = 'APPEND' SELECT * FROM [B*.csv]",
+      "is_active": true
+    }
+  ]
+}

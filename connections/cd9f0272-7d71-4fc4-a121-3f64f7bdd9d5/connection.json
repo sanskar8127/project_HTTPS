@@ -1,0 +1,23 @@
+{
+  "id": "cd9f0272-7d71-4fc4-a121-3f64f7bdd9d5",
+  "display_name": "Postgres(native)",
+  "name": "postgres(native)",
+  "connector": {
+    "name": "PostgreSQL",
+    "version": "latest"
+  },
+  "properties": {
+    "Database": "postgres",
+    "Password": "SECURE:OiFrU72yh+hAKAUwABXue3a49SC0I4p3jVg1DKcr9hxVXORpZOsMUdbnX0LYU/EeBxnCKPumFdwxsg==",
+    "Port": "5432",
+    "Host": "localhost",
+    "User": "postgres"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

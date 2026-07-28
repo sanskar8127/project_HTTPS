@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002112763461505025,
+      "job_id": "65872528-6ce2-42dc-aa09-4ad7f008b28b",
+      "query": "REPLICATE [CONCAT_Test] ([Concat_name] VARCHAR(30)) SELECT [Id], [FirstName], [LastName], CONCAT([FirstName], ' ', [LastName]) AS [Concat_name] FROM [dbo].[CONCAT_Test]",
+      "is_active": true
+    }
+  ]
+}

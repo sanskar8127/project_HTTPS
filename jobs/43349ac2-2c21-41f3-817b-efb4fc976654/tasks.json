@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1001073637798842369,
+      "job_id": "43349ac2-2c21-41f3-817b-efb4fc976654",
+      "query": "REPLICATE [db2].[activityslips] SELECT * FROM [db2].[activityslips]",
+      "is_active": true
+    }
+  ]
+}

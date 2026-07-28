@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002117008512389121,
+      "job_id": "f1349f3d-e082-414e-947a-227bc3d36258",
+      "query": "REPLICATE [FORMAT_Test] ([format_date] VARCHAR(20)) SELECT [Id], [DateCol], [TimeCol], FORMAT([DateCol], 'yyyy-MM-dd', 'yyyy/MM/dd') AS [format_date] FROM [dbo].[FORMAT_Test]",
+      "is_active": true
+    }
+  ]
+}

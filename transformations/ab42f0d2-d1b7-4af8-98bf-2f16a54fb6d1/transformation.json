@@ -1,0 +1,22 @@
+{
+  "id": "ab42f0d2-d1b7-4af8-98bf-2f16a54fb6d1",
+  "name": "pipeline_dbtcore",
+  "pipeline_id": null,
+  "type": 8,
+  "destination_connector": "postgresql",
+  "trigger": {
+    "type": "None"
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}

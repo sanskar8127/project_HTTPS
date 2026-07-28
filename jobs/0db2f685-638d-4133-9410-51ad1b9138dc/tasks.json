@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 999927979733815297,
+      "job_id": "0db2f685-638d-4133-9410-51ad1b9138dc",
+      "query": "REPLICATE [dbo].[products] WITH maxparallelpartitions = '2', enableparallelreadpartitioning = 'true', IncrementalCheckColumns = 'id', partitionsize = '5' SELECT * FROM [newschema].[products]",
+      "is_active": true
+    },
+    {
+      "id": 1000307134954606595,
+      "job_id": "0db2f685-638d-4133-9410-51ad1b9138dc",
+      "query": "REPLICATE [dbo].[1] WITH maxparallelpartitions = '2', enableparallelreadpartitioning = 'true', IncrementalCheckColumns = 'id', partitionsize = '180000' SELECT * FROM [db2].[1mrows]",
+      "is_active": true
+    }
+  ]
+}

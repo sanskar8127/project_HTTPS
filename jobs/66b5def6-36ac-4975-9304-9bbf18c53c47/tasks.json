@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1000288938100920321,
+      "job_id": "66b5def6-36ac-4975-9304-9bbf18c53c47",
+      "query": "REPLICATE [Bills]",
+      "is_active": true
+    },
+    {
+      "id": 1000288938100920323,
+      "job_id": "66b5def6-36ac-4975-9304-9bbf18c53c47",
+      "query": "REPLICATE [Class]",
+      "is_active": true
+    },
+    {
+      "id": 1000288938100920325,
+      "job_id": "66b5def6-36ac-4975-9304-9bbf18c53c47",
+      "query": "REPLICATE [Customers]",
+      "is_active": true
+    },
+    {
+      "id": 1000296569330864129,
+      "job_id": "66b5def6-36ac-4975-9304-9bbf18c53c47",
+      "query": "REPLICATE [Departments]",
+      "is_active": true
+    },
+    {
+      "id": 1000296947636113409,
+      "job_id": "66b5def6-36ac-4975-9304-9bbf18c53c47",
+      "query": "REPLICATE [Employees]",
+      "is_active": true
+    }
+  ]
+}

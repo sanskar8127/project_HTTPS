@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002477295685996545,
+      "job_id": "f26341a6-5a10-4570-b60f-44e074fafcef",
+      "query": "REPLICATE [ADMIN_document_store] SELECT [ID], [FILE_NAME] FROM [ADMIN].[document_store]",
+      "is_active": true
+    }
+  ]
+}

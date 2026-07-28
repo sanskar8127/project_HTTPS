@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1001042103993765889,
+      "job_id": "6cec4dbb-6eb7-42c8-9008-315103e580cb",
+      "query": "REPLICATE [db2_mysql_kafka_test] SELECT * FROM [db2].[newtable_cdccheck1]",
+      "is_active": true
+    }
+  ]
+}

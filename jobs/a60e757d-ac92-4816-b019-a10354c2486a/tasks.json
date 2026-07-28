@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1002092775321243649,
+      "job_id": "a60e757d-ac92-4816-b019-a10354c2486a",
+      "query": "REPLICATE [Bills]",
+      "is_active": true
+    },
+    {
+      "id": 1002092775321243653,
+      "job_id": "a60e757d-ac92-4816-b019-a10354c2486a",
+      "query": "REPLICATE [Customers]",
+      "is_active": true
+    },
+    {
+      "id": 1002095788769284097,
+      "job_id": "a60e757d-ac92-4816-b019-a10354c2486a",
+      "query": "REPLICATE [Employees]",
+      "is_active": true
+    }
+  ]
+}

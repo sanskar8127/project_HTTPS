@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 999625954097762305,
+      "job_id": "f263d5e6-7f7f-49ec-9eae-4f4c50f8dfe3",
+      "query": "INSERT INTO trans_check (id, name, age)\nVALUES\n    (3, 'Simsn', 74),\n    (4, 'Asfdg', 56);",
+      "is_active": true
+    },
+    {
+      "id": 999626021307289602,
+      "job_id": "f263d5e6-7f7f-49ec-9eae-4f4c50f8dfe3",
+      "query": "update trans_cheeck set age=43 where id=1;",
+      "is_active": true
+    },
+    {
+      "id": 999626244964356101,
+      "job_id": "f263d5e6-7f7f-49ec-9eae-4f4c50f8dfe3",
+      "query": "delete from trans_check where id=2;",
+      "is_active": true
+    },
+    {
+      "id": 999634822789992449,
+      "job_id": "f263d5e6-7f7f-49ec-9eae-4f4c50f8dfe3",
+      "query": "truncate table bills;",
+      "is_active": true
+    },
+    {
+      "id": 999634921762983945,
+      "job_id": "f263d5e6-7f7f-49ec-9eae-4f4c50f8dfe3",
+      "query": "drop table blogs;",
+      "is_active": true
+    }
+  ]
+}

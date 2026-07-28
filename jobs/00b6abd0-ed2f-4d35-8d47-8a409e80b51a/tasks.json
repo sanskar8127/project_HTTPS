@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002475341429739521,
+      "job_id": "00b6abd0-ed2f-4d35-8d47-8a409e80b51a",
+      "query": "REPLICATE [ADMIN_Kafka_timestamp] SELECT * FROM [ADMIN].[Kafka_timestamp]",
+      "is_active": true
+    }
+  ]
+}

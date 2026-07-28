@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1000366873684086784,
+      "job_id": "d5cad5e1-5d6e-4610-b070-4ecd1b7638e2",
+      "query": "REPLICATE [S3jobtable] WITH OnModified = 'APPEND' SELECT * FROM [B*.csv]",
+      "is_active": true
+    }
+  ]
+}

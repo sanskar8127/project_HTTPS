@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 998290078235234305,
+      "job_id": "0230e819-0edc-4a0f-880f-5afa88c58887",
+      "query": "REPLICATE [newtest_schema-bills] SELECT * FROM [newtest_schema].[bills]",
+      "is_active": true
+    }
+  ]
+}

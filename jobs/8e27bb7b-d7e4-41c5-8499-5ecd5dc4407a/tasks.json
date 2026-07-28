@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002153914600132609,
+      "job_id": "8e27bb7b-d7e4-41c5-8499-5ecd5dc4407a",
+      "query": "REPLICATE [DATETIMEFROMPARTS_Test]\nSELECT\n    *,\n    DATETIMEFROMPARTS(\n        YEAR([DateTimeCol]),\n        MONTH([DateTimeCol]),\n        DAY([DateTimeCol]),\n        HOUR([DateTimeCol]),\n        MINUTE([DateTimeCol]),\n        SECOND([DateTimeCol]),0\n    ) AS [DerivedDateTime]\nFROM [dbo].[DATETIMEFROMPARTS_Test];",
+      "is_active": true
+    }
+  ]
+}

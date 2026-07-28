@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1002524686577438721,
+      "job_id": "0dd706e6-3852-4372-88bc-7d96a2d6cd91",
+      "query": "REPLICATE [newschema_testkafka1] SELECT * FROM [newschema].[testkafka2]",
+      "is_active": true
+    }
+  ]
+}

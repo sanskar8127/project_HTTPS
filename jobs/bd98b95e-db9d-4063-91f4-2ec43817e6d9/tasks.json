@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1001021248920227841,
+      "job_id": "bd98b95e-db9d-4063-91f4-2ec43817e6d9",
+      "query": "REPLICATE [dbo_ANNOTATIONS] SELECT * FROM [dbo].[ANNOTATIONS]",
+      "is_active": true
+    },
+    {
+      "id": 1001021248920227843,
+      "job_id": "bd98b95e-db9d-4063-91f4-2ec43817e6d9",
+      "query": "REPLICATE [dbo_authors] SELECT * FROM [dbo].[authors]",
+      "is_active": true
+    }
+  ]
+}
