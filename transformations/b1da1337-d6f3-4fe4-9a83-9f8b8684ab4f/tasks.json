@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1018048090386599937,
+      "job_id": "b1da1337-d6f3-4fe4-9a83-9f8b8684ab4f",
+      "query": "insert into table1 values(12,'rerrgg',74),(13,'rfreg',45)",
+      "is_active": true
+    },
+    {
+      "id": 1018048192358518785,
+      "job_id": "b1da1337-d6f3-4fe4-9a83-9f8b8684ab4f",
+      "query": "drop table newtable_check;",
+      "is_active": true
+    }
+  ]
+}

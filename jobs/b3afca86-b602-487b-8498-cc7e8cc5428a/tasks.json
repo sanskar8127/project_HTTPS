@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1018048577328517121,
+      "job_id": "b3afca86-b602-487b-8498-cc7e8cc5428a",
+      "query": "REPLICATE [43tr5t354t] SELECT * FROM [db2].[43tr5t354t]",
+      "is_active": true
+    },
+    {
+      "id": 1018048577328517123,
+      "job_id": "b3afca86-b602-487b-8498-cc7e8cc5428a",
+      "query": "REPLICATE [\\[newtetsting_table5\\]] SELECT * FROM [db2].[\\[newtetsting_table5\\]]",
+      "is_active": true
+    }
+  ]
+}

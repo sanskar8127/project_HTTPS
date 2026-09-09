@@ -1,0 +1,20 @@
+{
+  "id": "efb4946b-5491-4a22-9bce-6b1fd32da537",
+  "display_name": "apiconn",
+  "name": "apiconn",
+  "connector": {
+    "name": "CData API",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None",
+    "URI": "https://jsonplaceholder.typicode.com/posts/"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

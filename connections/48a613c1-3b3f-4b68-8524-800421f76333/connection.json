@@ -1,0 +1,21 @@
+{
+  "id": "48a613c1-3b3f-4b68-8524-800421f76333",
+  "display_name": "GBQ",
+  "name": "gbq",
+  "connector": {
+    "name": "CData GoogleBigQuery",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "OAuth",
+    "ProjectId": "choff04",
+    "InsertMode": "Upload"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

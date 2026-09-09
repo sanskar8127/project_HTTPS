@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1018045089353699329,
+      "job_id": "edbf7109-4ddf-4435-9147-82193b6a5fbf",
+      "query": "REPLICATE [additionalnumber] SELECT * FROM [db2].[additionalnumber]",
+      "is_active": true
+    },
+    {
+      "id": 1018045089353699331,
+      "job_id": "edbf7109-4ddf-4435-9147-82193b6a5fbf",
+      "query": "REPLICATE [address] SELECT * FROM [db2].[address]",
+      "is_active": true
+    }
+  ]
+}

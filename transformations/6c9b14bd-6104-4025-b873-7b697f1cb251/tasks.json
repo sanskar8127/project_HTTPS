@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1018045347999649793,
+      "job_id": "6c9b14bd-6104-4025-b873-7b697f1cb251",
+      "query": "insert into newtable1 values (1031,'ref44',56)",
+      "is_active": true
+    },
+    {
+      "id": 1018045347999649795,
+      "job_id": "6c9b14bd-6104-4025-b873-7b697f1cb251",
+      "query": "update newtable1 set age=54 where id=101",
+      "is_active": true
+    }
+  ]
+}

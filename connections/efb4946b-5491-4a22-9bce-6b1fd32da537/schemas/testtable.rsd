@@ -1,0 +1,19 @@
+<api:script>
+  <api:info title="testtable" desc="Generated schema file." xmlns:other="http://apiscript.com/ns?v1">
+    <attr name="body" xs:type="string" readonly="False" other:xPath="/json/body" />
+    <attr name="id" xs:type="int" readonly="False" other:xPath="/json/id" />
+    <attr name="json:_id" xs:type="string" readonly="False" other:xPath="/json/_id" />
+    <attr name="title" xs:type="string" readonly="False" other:xPath="/json/title" />
+    <attr name="userId" xs:type="int" readonly="False" other:xPath="/json/userId" />
+  </api:info>
+  <api:setc attr="URI" value="https://jsonplaceholder.typicode.com/posts/" />
+  <api:setc attr="XPath" value="/" />
+  <api:set attr="DataModel" value="FlattenedDocuments" />
+  <api:set attr="PageIdColumns" value="True" />
+  <api:set attr="EnablePaging" value="False" />
+  <api:script method="GET">
+    <api:call op="jsonproviderGet">
+      <api:push />
+    </api:call>
+  </api:script>
+</api:script>

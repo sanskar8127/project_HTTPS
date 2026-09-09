@@ -1,0 +1,22 @@
+{
+  "id": "b1da1337-d6f3-4fe4-9a83-9f8b8684ab4f",
+  "name": "trans2",
+  "pipeline_id": null,
+  "type": 4,
+  "destination_connector": "sqlserver_dest",
+  "trigger": {
+    "type": ""
+  },
+  "alerts": {
+    "send_email": true,
+    "email_to": "sanskarg@cdata.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}

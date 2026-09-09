@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1018050027043557376,
+      "job_id": "913e3211-8ab7-4078-9f4b-4cb971ad0287",
+      "query": "insert query",
+      "is_active": true
+    },
+    {
+      "id": 1018050027043557377,
+      "job_id": "913e3211-8ab7-4078-9f4b-4cb971ad0287",
+      "query": "update query",
+      "is_active": true
+    }
+  ]
+}
