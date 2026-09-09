@@ -11,6 +11,12 @@
       "job_id": "b3afca86-b602-487b-8498-cc7e8cc5428a",
       "query": "REPLICATE [\\[newtetsting_table5\\]] SELECT * FROM [db2].[\\[newtetsting_table5\\]]",
       "is_active": true
+    },
+    {
+      "id": 1018053603014873089,
+      "job_id": "b3afca86-b602-487b-8498-cc7e8cc5428a",
+      "query": "REPLICATE [db2].[newtable_cdccheck1] WITH enableparallelreadpartitioning = 'false', IncrementalCheckColumns = 'id' SELECT * FROM [db2].[newtable_cdccheck1]",
+      "is_active": true
     }
   ]
 }

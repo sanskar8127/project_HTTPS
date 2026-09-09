@@ -1,0 +1,22 @@
+{
+  "id": "aa2a9881-17ad-43b7-856d-93ad557d2c6c",
+  "name": "dbtcloud_trans",
+  "pipeline_id": null,
+  "type": 9,
+  "destination_connector": "",
+  "trigger": {
+    "type": null
+  },
+  "alerts": {
+    "send_email": true,
+    "email_to": "sanskarg@cdata.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}
